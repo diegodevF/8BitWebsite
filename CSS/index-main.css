@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+}
+
+body{
+    background: url(../images/fondo.jpg) repeat;
+    background-position: center;
+}
+
+.principal{
+    position: relative;
+}
+
+.container-1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 40%);
+}
+
+form{
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    box-shadow: 2px 4px 5px #06283D;
+    border-radius: 10px;
+    background: #1E8449;
+}
+
+label{
+    font-size: 25px;
+    text-shadow: 2px 2px 5px #06283D;
+    font-family: 'Press Start 2P';
+    border-bottom: 1px solid #06283D;
+}
+
+form button{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+
+}
+
+form input{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 5px 4px #06283D;
+}
+
+form a{
+    text-decoration: none;
+    color: #06283D;
+    margin-top: -20px;
+    font-size: larger;
+}
+
+form input:hover{
+    border: #38E54D 1px solid;
+    background: #06283D;
+    box-shadow: 2px 3px 4px #38E54D;
+    color: white;
+    transition: 1s;
+}
+
+form:hover{
+    box-shadow: #38E54D 1px 2px 3px;
+    transition: 1s;
+}
